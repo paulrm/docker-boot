@@ -1,5 +1,5 @@
 FROM gcc
-LABEL maintainer "Paul Messina1 <paul.messina@gmail.com>"
+LABEL maintainer "Paul Messina <paul.messina@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
 	make \
