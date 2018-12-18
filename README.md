@@ -1,7 +1,7 @@
 # docker-boot
 
-[![image](https://img.shields.io/docker/automated/inveniosoftware/centos7-python.svg)](https://hub.docker.com/r/inveniosoftware/centos7-python/) 
-[![image](https://img.shields.io/docker/build/inveniosoftware/centos7-python.svg)](https://hub.docker.com/r/inveniosoftware/centos7-python/builds/)
+[![image](https://img.shields.io/docker/automated/paulmess/boot.svg)](https://hub.docker.com/r/paulmess/boot/) 
+[![image](https://img.shields.io/docker/build/paulmess/boot.svg)](https://hub.docker.com/r/paulmess/boot/builds/)
 
 
 This repository contains Docker base images to generate the environment for
@@ -11,7 +11,7 @@ This repository contains Docker base images to generate the environment for
 
 ## Usage
 
-Detailed usage is described in the [invenio getting started guide](https://invenio-software.org/gettingstarted/).
+Detailed usage is described in the [NotYet getting started guide](https://notyet.org/gettingstarted/).
 
 ## Build the new images
 
@@ -21,19 +21,19 @@ Build the images by running the docker build with the appropiate tag, i.e:
 
 ## Supported Tags and respective Dockerfile links
 
-* 3.6 - [Dockerfile](https://github.com/inveniosoftware/docker-invenio/blob/master/python3.6/Dockerfile).
+* 0.1 - [Dockerfile](https://github.com/paulmess/boot/blob/master/v01/Dockerfile).
 
 ## Helpful resources
 
 * [Docker Community Forums](https://forums.docker.com/)
 * [Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/)
 * [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-* [Issue tracker](https://github.com/inveniosoftware/docker-invenio/issues)
+* [Issue tracker](https://github.com/paulmess/boot/issues)
 
 ## License
 
 This file is part of boot.
-Copyright (C) 2015-2018 
+Copyright (C) 2015-2018 NotYet
 
 boot is free software; you can redistribute it and/or modify it
 under the terms of the MIT License; see LICENSE file for more details.
